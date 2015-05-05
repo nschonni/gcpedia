@@ -1,0 +1,19 @@
+<?php /* Smarty version 2.6.18-dev, created on 2015-04-23 15:22:46
+         compiled from wiki:FlickrSetShow */ ?>
+<?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'default', 'wiki:FlickrSetShow', 1, false),array('modifier', 'escape', 'wiki:FlickrSetShow', 1, false),)), $this); ?>
+<object width="<?php echo ((is_array($_tmp=((is_array($_tmp=@$this->_tpl_vars['width'])) ? $this->_run_mod_handler('default', true, $_tmp, 580) : smarty_modifier_default($_tmp, 580)))) ? $this->_run_mod_handler('escape', true, $_tmp, 'html') : smarty_modifier_escape($_tmp, 'html')); ?>
+" height="<?php echo ((is_array($_tmp=((is_array($_tmp=@$this->_tpl_vars['height'])) ? $this->_run_mod_handler('default', true, $_tmp, 350) : smarty_modifier_default($_tmp, 350)))) ? $this->_run_mod_handler('escape', true, $_tmp, 'html') : smarty_modifier_escape($_tmp, 'html')); ?>
+"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2F<?php echo ((is_array($_tmp=$this->_tpl_vars['user_id'])) ? $this->_run_mod_handler('escape', true, $_tmp, 'urlpathinfo') : smarty_modifier_escape($_tmp, 'urlpathinfo')); ?>
+%2Fsets%2F<?php echo ((is_array($_tmp=$this->_tpl_vars['set_id'])) ? $this->_run_mod_handler('escape', true, $_tmp, 'urlpathinfo') : smarty_modifier_escape($_tmp, 'urlpathinfo')); ?>
+%2Fshow%2F&page_show_back_url=%2Fphotos%2F<?php echo ((is_array($_tmp=$this->_tpl_vars['user_id'])) ? $this->_run_mod_handler('escape', true, $_tmp, 'urlpathinfo') : smarty_modifier_escape($_tmp, 'urlpathinfo')); ?>
+%2Fsets%2F<?php echo ((is_array($_tmp=$this->_tpl_vars['set_id'])) ? $this->_run_mod_handler('escape', true, $_tmp, 'urlpathinfo') : smarty_modifier_escape($_tmp, 'urlpathinfo')); ?>
+%2F&set_id=<?php echo ((is_array($_tmp=$this->_tpl_vars['set_id'])) ? $this->_run_mod_handler('escape', true, $_tmp, 'urlpathinfo') : smarty_modifier_escape($_tmp, 'urlpathinfo')); ?>
+&jump_to="></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=124984"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=124984" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2F<?php echo ((is_array($_tmp=$this->_tpl_vars['user_id'])) ? $this->_run_mod_handler('escape', true, $_tmp, 'urlpathinfo') : smarty_modifier_escape($_tmp, 'urlpathinfo')); ?>
+%2Fsets%2F<?php echo ((is_array($_tmp=$this->_tpl_vars['set_id'])) ? $this->_run_mod_handler('escape', true, $_tmp, 'urlpathinfo') : smarty_modifier_escape($_tmp, 'urlpathinfo')); ?>
+%2Fshow%2F&page_show_back_url=%2Fphotos%2F<?php echo ((is_array($_tmp=$this->_tpl_vars['user_id'])) ? $this->_run_mod_handler('escape', true, $_tmp, 'urlpathinfo') : smarty_modifier_escape($_tmp, 'urlpathinfo')); ?>
+%2Fsets%2F<?php echo ((is_array($_tmp=$this->_tpl_vars['set_id'])) ? $this->_run_mod_handler('escape', true, $_tmp, 'urlpathinfo') : smarty_modifier_escape($_tmp, 'urlpathinfo')); ?>
+%2F&set_id=<?php echo ((is_array($_tmp=$this->_tpl_vars['set_id'])) ? $this->_run_mod_handler('escape', true, $_tmp, 'urlpathinfo') : smarty_modifier_escape($_tmp, 'urlpathinfo')); ?>
+&jump_to=" width="<?php echo ((is_array($_tmp=((is_array($_tmp=@$this->_tpl_vars['width'])) ? $this->_run_mod_handler('default', true, $_tmp, 580) : smarty_modifier_default($_tmp, 580)))) ? $this->_run_mod_handler('escape', true, $_tmp, 'html') : smarty_modifier_escape($_tmp, 'html')); ?>
+" height="<?php echo ((is_array($_tmp=((is_array($_tmp=@$this->_tpl_vars['height'])) ? $this->_run_mod_handler('default', true, $_tmp, 350) : smarty_modifier_default($_tmp, 350)))) ? $this->_run_mod_handler('escape', true, $_tmp, 'html') : smarty_modifier_escape($_tmp, 'html')); ?>
+"></embed></object>

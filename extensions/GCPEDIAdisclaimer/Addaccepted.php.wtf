@@ -1,0 +1,55 @@
+<?php
+/**
+ *
+ * adds user to the accepted table
+ *
+ */
+$wgAjaxExportList[] = 'Addaccepted';
+
+//echo "<pre>";
+//print_r($wgAjaxExportList);
+//echo "</pre>";
+$wgHooks['AddNewAccount'][] = 'Addnewuser';
+
+function Addaccepted( $q )
+{
+	//echo "TEST!!!!";
+	//echo $q;
+	require_once('dbdisclaimer.php');
+	
+	$dbr = wfGetDB( DB_SLAVE );
+	
+	$queryString = "INSERT INTO `accepted` (Username, date) VALUES ('asdf', 'fdsa')";
+	$dbr->query($queryString);
+	
+	/*
+	$query = "INSERT INTO `accepted` (Username) VALUES ('". $q ."')";
+	
+	$result = $dbr->doQuery($query);
+	
+	//echo '<body onmousemove="window.location.href = \'http://192.168.36.69/gcwiki/index.php?title=Main_Page\';">If you are not </body>';*/
+	
+	return true;
+	
+}
+
+function Addnewuser( $user )
+{
+	
+	require_once('dbdisclaimer.php');
+	
+	$dbr = wfGetDB( DB_SLAVE );
+	
+	$query = "INSERT INTO `accepted` (Username) VALUES ('". $user->getName() ."')";
+	
+	$result = $dbr->doQuery($query);
+	
+	//echo '<body onmousemove="window.location.href = \'http://192.168.36.69/gcwiki/index.php?title=Main_Page\';">If you are not </body>';
+	
+	return true;
+	
+}
+
+
+
+?>

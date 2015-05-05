@@ -1,0 +1,11 @@
+Comment_Log.XLS
+Composantes_de_gestion_10.doc
+CR_-_Mar_22,_2011_-_Updated_Presentation.ppt
+Enterprise_PMO.jpg
+GeoConnections_Final_CC_Primer.pdf
+SDC_APA_-_January_27_2012.pdf
+SDC_APA_-_March_20_2012.doc
+Tabs_sample.doc
+
+8 unused files 
+Script running time: 0s, or 0min

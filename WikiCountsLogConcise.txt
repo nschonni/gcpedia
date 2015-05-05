@@ -1,0 +1,10 @@
+
+Fri, Oct 4, 2013 12:59 wp: 'en'  !!
+-> [ XML dump file '/opt/lampp/htdocs/WikiStats/dumps/en-latest-pages-meta-history.xml.bz2' not found. ]
+
+
+Fri, Oct 4, 2013 13:00 wp: 'en' size: 13.8 Mb prev run: 22 min 19 sec
+13:00 run:00:00,read:      0=+    0,p/h:     0,~prev:  0.1%,38G/4.0K
+13:01 run:00:00,read:    180=+  180,p/h:  1080,~prev:  3.4%,38G/208K !!
+-> [ String </mediawiki> not found at end of file 'en-latest-pages-meta-history.xml.bz2'. Incomplete or corrupt file? ]
+

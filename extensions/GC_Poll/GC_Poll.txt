@@ -1,0 +1,33 @@
+---------------------------
+Changes:
+---------------------------
+
+- Supports multilang
+- Encrypted usernames
+- Private results
+- Maximum of 1 per page (in order to support multilang)
+
+
+
+---------------------------
+Useage (with Multilang):
+---------------------------
+
+<multilang>
+@en|
+<GC_poll>
+Is Matt awesome?
+Yes
+Yes
+I don't know Yes.
+</GC_poll>
+
+@fr|
+<GC_poll>
+Is Matt awesome? (fr)
+Yes (fr)
+Yes (fr)
+I don't know Yes.(fr)
+</GC_poll> 
+</multilang> 
+

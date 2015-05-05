@@ -1,0 +1,35 @@
+#the_last_visited_pages{
+  width: 200px;
+  border: 1px solid #000;
+  padding: 5px;
+  font-size: 12px;
+  border: solid 2px;
+  border-color: #BFBF79;
+  
+}
+
+#the_last_visited_pages a{
+  text-decoration: none;
+}
+
+#the_last_visited_pages a:hover{
+  text-decoration: underline;
+}
+
+#the_last_visited_pages p{
+  padding: 0px;
+  margin: 0px;
+}
+
+.tlvp_title{
+  border-bottom: 1px dotted #000;
+  padding-bottom: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  background: #FFFFA1; 
+  padding: 1px 0 1px 4px 
+}
+
+.tlvp_content{
+  padding-top: 5px;
+}

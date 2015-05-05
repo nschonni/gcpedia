@@ -1,0 +1,19 @@
+/**
+ * Section edit links
+ */
+
+span.gcvector-editLink {
+	float: none;
+	display: inline-block;
+}
+
+span.gcvector-editLink a {
+	padding-left: 18px;
+	/* @embed */
+	background: url(images/edit-faded.png) left top no-repeat;
+}
+
+span.gcvector-editLink a:hover {
+	/* @embed */
+	background-image: url(images/edit.png);
+}

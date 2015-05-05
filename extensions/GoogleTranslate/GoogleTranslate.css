@@ -1,0 +1,64 @@
+#googletranslate {
+        float: left;
+        position: absolute;
+        z-index: 3;
+        text-align: left;
+        border: 1px solid #737373;
+        font-size: 11px;
+        width: 300px;
+        border-top-style: none;
+        background-color: white;
+        padding-top: .5em;
+        padding-bottom: 1em;
+        margin-left: .5em;
+}
+ 
+#google_translate_input{
+        border: 1px solid #333;
+}
+ 
+#google_translate_from{
+        border: 1px solid #333;
+}
+#google_translate_to{
+        border: 1px solid #333;
+}
+ 
+ 
+ 
+#googletranslate a {
+        color: black;
+        background: #7cff00;
+        padding-left: .5em;
+        display: block;
+        font-weight: bold;
+        font-style: normal;
+}
+ 
+#googletranslate ul{
+        list-style: none;
+        margin: 0;
+ 
+}
+ 
+#googletranslate li{
+        padding:1px 5px;
+        white-space: nowrap;
+        text-align:left;
+        margin: 0;
+ 
+}
+ 
+#googletranslate a:hover{
+        font-weight: bold;
+        text-decoration: underline;
+        background: white;
+        color: #4a1500;
+ 
+}
+ 
+#googlelanguage {
+        text-align: left;
+        border: 1px solid #737373;
+        padding: .5em;
+}
