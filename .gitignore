@@ -1,0 +1,11 @@
+#ignore configuration files
+LocalSettings.php
+config/LocalSettings.php
+AdminSettings.php
+apc.php
+control.php
+gcpedia_dump.readme
+
+#ignore cache and uploaded files
+cache/*
+images/*
